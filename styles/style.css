@@ -1,0 +1,60 @@
+.topic{
+  font-family:Arial;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.des{
+  font-family:Arial;
+  font-size:16px;
+}
+
+.des2{
+  font-size:18px;
+}
+
+.pic{
+  display:inline-block;
+  margin-right: 10px;
+}
+
+.logo{
+  text-align:center;
+  color:blueviolet;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.music{
+  display:inline-block;
+  margin-right:10px;
+}
+
+body {
+  background: linear-gradient(-45deg, black, pink, yellow);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.founder{
+  text-align:center;
+  color:rgb(117, 184, 10);
+  font-size: 50px;
+}
+
+.img{
+  border-radius:50px;
+  cursor: pointer;
+}
