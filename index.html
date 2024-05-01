@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bills Website</title>
+    <link rel="icon" href="bills.png">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 80%; margin: auto; }
+        header { text-align: center; padding: 20px; }
+        nav { text-align: center; margin: 20px 0; }
+        nav a { margin: 0 10px; text-decoration: none; color: #333; }
+        footer { text-align: center; padding: 20px; margin-top: 20px; border-top: 1px solid #ccc; }
+
+        body{background: linear-gradient(-45deg, pink, yellow, purple);
+             background-size: 400% 400%;
+              animation: gradientBG 15s ease infinite;
+            }
+
+        @keyframes gradientBG{
+            0%{
+                background-position: 0% 50%;
+            } 50% {
+                background-position: 100% 50%;
+            } 100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Personal Website</h1>
+        </header>
+        
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="11-todo-lists.html">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="home">
+            <h2>Home</h2>
+            <p>Hello! I'm Baanbil Godfred, and this is my personal website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This page was only created using HTML and CSS. When I say<br>HTML and CSS, I mean Hyper Text Markup Language and Casscaging Style sheets.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Click on the projects text above to view what<br>I created with HTML, CSS and JavaScript</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me here.</p>
+        </section>
+
+        <footer>
+            <p>© Baanbil Godfred - All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
